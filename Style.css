@@ -1,0 +1,141 @@
+.main {
+  background: url('images/Home_img.jpg'); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%; 
+  height: 80vh;
+}
+.card{
+  border: none;
+}
+.navbar{
+  border-top: 6px solid #cdb4db;
+  border-bottom: 6px solid #cdb4db;
+}
+
+.navbar-brand{
+  margin-left: -20px;
+}
+.nav-item:hover {
+text-decoration: underline;
+}
+.tagline{
+  padding: 5% 50% 0 5%;
+}
+.tagline p{
+  text-align-last: center;
+}
+.change-text{
+  margin-left: 8%;
+  padding: 2% 10%;
+}
+.meditation{
+  text-align-last: center;
+  background: #cdb4db;
+}
+.meditation p{
+  font-size: 20px;
+}
+.types{
+  background: linear-gradient(180deg  , white 40%, #cdb4db) ;
+}
+.card-img{
+  height: 200px;
+}
+.courses {
+  background: linear-gradient(180deg  , #cdb4db , white) ;
+  border-bottom: 6px solid  #cdb4db;
+}
+.card-img-top{
+  height: 200px;
+}
+.title{
+  padding: 2% 20% 0% 20%;
+  text-align-last: center;
+}
+.benefits .card{
+  border-radius: 10%;
+  border: none;
+}
+.types .card:hover{
+ box-shadow: 0 0 20px black;
+}
+.courses .card:hover{
+  box-shadow: 0 0 20px black;
+ }
+.contactus{
+  background: url('images/meditation.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+}
+.contact input{
+  width: 100%;
+  height: 40px;
+}
+.footer {
+ background-color: #cdb4db;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.2s ease-in-out;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+
+
+@media (max-width: 768px) {
+  .main {
+    background: url('images/Home_img.jpg'); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 70vh;
+  }
+  .tagline{
+    padding: 2%;
+  }
+  .change-text{
+    margin-left: 1%;
+    padding: 1% 3%;
+  }
+  .meditation p{
+    font-size: 12px;
+  }
+  .title{
+    padding: 0% 5% 0% 5%;
+    text-align-last: center;
+  }
+  .contactus{
+    background: url('images/meditation.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 90vh;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

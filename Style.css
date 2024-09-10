@@ -75,11 +75,11 @@ text-decoration: underline;
   height: 70vh;
 }
 .contact input::placeholder{
-  color: rgb(3, 3, 3);
+  color: black;
   font-weight: 600;
 }
 .contact textarea::placeholder{
-  color: rgb(3, 3, 3);
+  color:black;
   font-weight: 600;
 }
 .footer {
